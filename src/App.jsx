@@ -49,7 +49,6 @@ function App() {
     }
     checkImages();
   },[])
-  useEffect(()=>{console.log(results)},[results])
   return (
     <div className='mainContainer'>
       <div className="headerContainer">

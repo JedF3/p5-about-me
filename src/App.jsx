@@ -53,7 +53,7 @@ function App() {
     <div className='mainContainer'>
       <div className="headerContainer">
         <header className='headnav'>
-          <h2 className='nameFont'>Jedidiah Francisco</h2>
+          <h2 className='nameFont headerName'>Jedidiah Francisco</h2>
           <div className="links">
             <a href="#home" className='headerLinks nameFont'>Home</a>
             <a href="#skills"className='headerLinks nameFont'>Skills</a>

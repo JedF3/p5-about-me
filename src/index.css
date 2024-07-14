@@ -311,4 +311,47 @@ button:focus-visible {
   .homeText{
     font-size: 1em;
   }
+  .projectSlide{
+    width:80%;
+  }
+  .footText>h2{
+    font-size: 1em;
+  }
+  .footText>p{
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .SkillImgLong{
+    width:400px;
+  }
+  .SkillImgSingle{
+    width:100px;
+    height:100px;
+  }
+  .selfImage{
+    width:300px;
+    height:200px;
+  }
+  .otherSkills{
+    gap:10%;
+  }
+  .ImageandIntro{
+    padding-left: 30px;
+    padding-right: 30px;
+    gap:5%;
+  }
+  .homeText{
+    font-size: 1em;
+  }
+  .introText{
+    font-size: 1em;
+  }
+  .headerName{
+    font-size: 1em;
+  }
+  .links{
+    width:300px
+  }
 }

@@ -354,4 +354,12 @@ button:focus-visible {
   .links{
     width:300px
   }
+  .headnav{
+    justify-content: flex-start;
+    gap:1%
+  }
+  .ImageandIntro{
+    flex-flow: column-reverse nowrap;
+    align-items: center;
+  }
 }

@@ -356,6 +356,7 @@ button:focus-visible {
   }
   .links{
     width:300px;
+    padding-right: 5%;
     gap:3%;
   }
   .headnav{

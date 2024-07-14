@@ -355,7 +355,8 @@ button:focus-visible {
     font-size: 1em;
   }
   .links{
-    width:300px
+    width:300px;
+    gap:3%;
   }
   .headnav{
     justify-content: flex-start;
@@ -368,5 +369,8 @@ button:focus-visible {
   .circleIcons{
     width:70px;
     height:70px;
+  }
+  .subSkillName{
+    font-size: 1em;
   }
 }

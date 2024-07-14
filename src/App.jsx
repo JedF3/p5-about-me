@@ -80,17 +80,17 @@ function App() {
           <div className="otherSkills">
             <div className="cSharp subSkill">
               <img src='https://res.cloudinary.com/dmqffmafb/image/upload/v1720853739/aboutme-img/caqtk0gzfwjedn3o4eek.png' className='SkillImgSingle'alt='C# Icon'/>
-              <h2 className='nameFont'> C#</h2>
+              <h2 className='nameFont subSkillName'> C#</h2>
               <p className="introText">Development of applications in C#</p>
             </div>
             <div className="rainmeter subSkill">
               <img src='https://res.cloudinary.com/dmqffmafb/image/upload/v1720859549/aboutme-img/hezlcncieol6rhzpveao.png' className='SkillImgSingle' alt='Rainmeter Icon'/>
-              <h2 className='nameFont'> Rainmeter </h2>
+              <h2 className='nameFont subSkillName'> Rainmeter </h2>
               <p className="introText">Desktop customization widget pack development.</p>
             </div>
             <div className="photoshop subSkill">
               <img src='https://res.cloudinary.com/dmqffmafb/image/upload/v1720859550/aboutme-img/n104gkuhdwed5fqturln.png' className='SkillImgSingle' alt='Photoshop Icon'/>
-              <h2 className='nameFont'> Photoshop </h2>
+              <h2 className='nameFont subSkillName'> Photoshop </h2>
               <p className="introText">Making UI components, drawings, icons</p>
             </div>
           </div>

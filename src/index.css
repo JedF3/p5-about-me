@@ -177,6 +177,7 @@ button:focus-visible {
   width:70%;
   height:50%;
   border-radius: 20px;
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
 }
 .react-slideshow-wrapper.slide{
   border-radius: 20px;
@@ -185,7 +186,10 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
   height: 450px;
 }
 
@@ -317,6 +321,9 @@ button:focus-visible {
   .projectSlide{
     width:80%;
   }
+  .slideContents{
+    height:300px
+  }
   .footText>h2{
     font-size: 1em;
   }
@@ -373,5 +380,8 @@ button:focus-visible {
   }
   .subSkillName{
     font-size: 1em;
+  }
+  .slideContents{
+    height:250px
   }
 }

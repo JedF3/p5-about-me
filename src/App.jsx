@@ -80,7 +80,7 @@ function App() {
           <div className="otherSkills">
             <div className="cSharp subSkill">
               <img src='https://res.cloudinary.com/dmqffmafb/image/upload/v1720853739/aboutme-img/caqtk0gzfwjedn3o4eek.png' className='SkillImgSingle'alt='C# Icon'/>
-              <h2 className='nameFont'> C# Development </h2>
+              <h2 className='nameFont'> C#</h2>
               <p className="introText">Development of applications in C#</p>
             </div>
             <div className="rainmeter subSkill">

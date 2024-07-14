@@ -365,4 +365,8 @@ button:focus-visible {
     flex-flow: column-reverse nowrap;
     align-items: center;
   }
+  .circleIcons{
+    width:70px;
+    height:70px;
+  }
 }

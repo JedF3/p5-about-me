@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -25,7 +28,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+
   min-width: 320px;
   min-height: 100vh;
 }
@@ -54,15 +57,258 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.headerContainer{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:20em;
+  z-index: 100;
+}
+.selfImage{
+  width:500px;
+  height:350px;
+  border-radius: 20px;
+}
+.mainContainer{
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.headnav{
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height:7em;
+  padding-left: 2%;
+  background-color: white;
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.ImageandIntro{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding-left:3%;
+  padding-right: 5%;
+  margin-top: 15em;
+  margin-bottom: 10em;
+}
+.nameFont{
+  font-family: Orbitron;
+}
+.introText{
+  font-family: Quicksand;
+  font-size: 2em;
+  text-align: left;
+}
+.introduction{
+  width:40%;
+}
+.links{
+  margin-right: 5%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width:500px;
+}
+.skillList{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-items: center;
+}
+.skillImgs{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-items: center;
+  gap:100px;
+}
+
+
+.SkillImgSingle{
+  width:200px;
+  height:200px;
+}
+.headerLinks{
+  color: black;
+}
+.mern{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width:100%;
+}
+
+.lowerColumn{
+  justify-self:end;
+}
+.subSkill{
+  width:20%;
+}
+.headerLinks:hover{
+  text-decoration: underline;
+}
+.otherSkills{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap:5%;
+}
+
+.projects{
+  width:100%;
+  display: flex;
+  flex-flow:column nowrap;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 5%;
+}
+.projectSlide{
+  width:70%;
+  height:50%;
+  border-radius: 20px;
+}
+.react-slideshow-wrapper.slide{
+  border-radius: 20px;
+}
+.slideContents {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-size: cover;
+  height: 450px;
+}
+
+.slideFoot{
+  width:100%;
+  height:5em;
+  font-size: 20px;
+  background-color:rgba(0, 0, 0, 0.76);
+  color:white;
+  text-align: left;
+  font-family: Exo;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-items: flex-start;
+}
+.footText{
+  padding-left: 2%;
+  padding-right: 5%;
+}
+.footText>h2{
+  margin:0;
+}
+.footText>p{
+  margin:0;
+  word-break: break-word;
+}
+.slideContents{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-items: flex-end;
+}
+.SlideBG{
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.contactMe{
+  width:100%;
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: white;
+  padding-bottom: 2%;
+}
+.contactButton{
+  padding:1%;
+  border-radius: 30px;
+}
+.contactButton:hover{
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.contactButtonDiv{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contactIcons{
+  width:300px;
+  height:300px;
+}
+.circleIcons{
+  width:150px;
+  height:150px;
+}
+.noPointer{
+  pointer-events: none;
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #eeeeee;
   }
   a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .SkillImgLong{
+    width:900px;
+  }
+  .homeText{
+    font-size: 1.5em;
+  }
+  .introText{
+    font-size: 1.75em;
+  }
+  .homeName{
+    font-size: 2.25em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .SkillImgLong{
+    width:600px;
+  }
+  .SkillImgSingle{
+    width:150px;
+    height:150px;
+  }
+  .selfImage{
+    width:400px;
+    height:300px;
+  }
+  .otherSkills{
+    gap:10%;
+  }
+  .ImageandIntro{
+    padding-left: 30px;
+    padding-right: 30px;
+    gap:5%;
+  }
+  .homeText{
+    font-size: 1em;
   }
 }
